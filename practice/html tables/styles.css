@@ -1,0 +1,135 @@
+.heading
+{
+    text-align: center;
+    color: rgb(15, 153, 96);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 40px;
+}
+.paragram
+{
+    font-size: 20px;
+}
+ol
+{
+    font-size: 20px;
+}
+ul
+{
+    font-size: 20px;
+}
+.div1
+{
+    font-size: 20px;
+    text-align: center;
+    background-color: aquamarine;
+}
+.div2
+{
+    text-align: center;
+    border: 1px solid red;
+}
+.content
+{
+    display: flex;
+}
+.content .card
+{
+    border: 1px solid black;
+    height: 600px;
+    width: 500px;
+}
+#card1
+{
+    background-image: url(https://images.unsplash.com/photo-1611162618758-2a29a995354b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8aW5zdGFncmFtfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60);
+    background-size: cover;
+}
+#card2
+{
+    background-image: url(https://images.unsplash.com/photo-1602094134035-d512f0be31dc?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8N3x8dHdpdHRlcid8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60);
+    background-size: cover;
+}
+#card3
+{
+    background-image: url(https://images.unsplash.com/photo-1620396749162-d61bdb715793?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8c25hcGNoYXR8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60);
+    background-size: cover;
+}
+#card4
+{
+    background-image: url(https://images.unsplash.com/photo-1601141586963-f213d2575b7f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8ZmFjZWJvb2t8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60);
+    background-size: cover;
+}
+#link1
+{
+    text-align: center;
+    color: white;
+    font-size: 18px;
+    background-color: blueviolet;
+    margin-top: 560px;
+}
+#link2
+{
+    text-align: center;
+    color: white;
+    font-size: 18px;
+    background-color: blueviolet;
+    margin-top: 560px;
+}#link3
+{
+    text-align: center;
+    color: white;
+    font-size: 18px;
+    background-color: blueviolet;
+    margin-top: 560px;
+}#link4
+{
+    text-align: center;
+    color: white;
+    font-size: 18px;
+    background-color: blueviolet;
+    margin-top: 560px;
+}
+
+#link1:hover
+{
+    font-size: 25px;
+    background-color: blue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#link2:hover
+{
+    font-size: 25px;
+    background-color: blue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}#link3:hover
+{
+    font-size: 25px;
+    background-color: blue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}#link4:hover
+{
+    font-size: 25px;
+    background-color: blue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.table
+{
+    color: white;
+    background-image: linear-gradient(30deg , #dc2f02 , #faa307);
+    margin: 20px;
+}
+.table h2
+{
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.table table
+{
+    width: 100%;
+    border-collapse: collapse;
+}
+.table table td , th
+{
+    text-align: center;
+    border: 2px solid wheat;
+}

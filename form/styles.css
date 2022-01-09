@@ -1,0 +1,62 @@
+.html_form
+{
+    padding: 50px;
+}
+.html_form form
+{
+    margin: 20px;
+    padding: 20px;
+    box-shadow: 1px 1px 16px black;
+    width: 50%;
+    border-radius: 10px ;
+    text-align: center;
+}
+.html_form form h2
+{
+    color: blue;
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;  
+    padding: 10px;
+}
+.html_form form input
+{
+    width: 90%;
+    margin: 10px;
+    padding: 5px; 
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    border-left: 2px solid rgb(231, 81, 22);
+}
+.html_form form input:focus
+{
+    border-left: 4px solid blue;
+    border-bottom: 1px solid blue;
+}
+
+.html_form form select
+{
+    width: 90%;
+    margin: 10px;
+    padding: 5px; 
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    border-left: 2px solid rgb(231, 81, 22);
+}
+.html_form form select:focus
+{
+    border-left: 4px solid blue;
+}
+.html_form form button
+{
+    padding: 10px;
+    border: none;
+    background-color: orange;
+    color: blue;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 8px black;
+}

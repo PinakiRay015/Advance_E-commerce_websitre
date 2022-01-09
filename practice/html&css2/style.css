@@ -1,0 +1,65 @@
+.container
+{
+    display: flex;
+    border: 3px solid black;
+}
+.container .card
+{
+    height: 400px;
+    width: 300px;
+    border: 1px solid black;
+}
+body
+{
+    background-color: black;
+}
+p{
+    color: whitesmoke;
+}
+h1
+{
+    color: rgb(10, 150, 155);
+}
+#card1
+{
+   background-image: url(https://images.unsplash.com/photo-1611162618758-2a29a995354b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDJ8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=300&q=60);
+   background-size: cover;
+}
+#card2
+{
+    background-image: url(https://images.unsplash.com/photo-1601141586963-f213d2575b7f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8ZmFjZWJvb2t8ZW58MHx8MHx8&auto=format&fit=crop&w=300&q=60);
+    background-size: cover;
+}
+#card3
+{
+    background-image: url(https://images.unsplash.com/photo-1602094134035-d512f0be31dc?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MzJ8fHR3aXR0ZXJ8ZW58MHx8MHx8&auto=format&fit=crop&w=300&q=60);
+    background-size: cover;
+}
+#card1 h2
+{
+    color: white;
+    text-align: center;
+    margin-top: 360px;
+}
+#card2 a p
+{
+    color: whitesmoke;
+    text-align: center;
+    background-color: tomato;
+    margin-top: 360px;
+}
+#card1 a p
+{
+    color: whitesmoke;
+    text-align: center;
+    background-color: tomato;
+    margin-top: 360px;
+}
+#card3 a p
+{
+    color: whitesmoke;
+    text-align: center;
+    background-color: tomato;
+    margin-top: 360px;
+}
+

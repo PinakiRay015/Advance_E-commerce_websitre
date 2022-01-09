@@ -1,0 +1,17 @@
+#flexbox
+{
+    display: flex;
+    height: 600px;
+    flex-wrap: wrap;
+    align-content: space-between;
+    background-color: aqua;
+}
+#flexbox > div
+{
+    background: white;
+    width: 100px;
+    text-align: center;
+    margin: 5px;
+    line-height: 50px;
+    font-size: 20px;
+}

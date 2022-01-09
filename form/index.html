@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="html_form">
+        <form onsubmit="return validation()" method="post">
+            <h2>Register</h2>
+            <input type="text" id="username" name="Name" placeholder="Enter your name"><br>
+            <span id="errorname" style="color: red;"></span>
+            <input type="email" id="email" name="Email ID" placeholder="Email Id"><br>
+            <span id="erroremail" style="color: red;"></span>
+            <input type="number" id="number" name="Number" placeholder="Contact number"><br>
+            <span id="errornumber" style="color: red;"></span>
+
+            <select name="Branch" required>
+                <option>--BRANCH--</option>
+                <option>CSE/IT</option>
+                <option>EE/EEE</option>
+                <option>ECE</option>
+                <option>ME/CE</option>
+            </select><br>
+            <select name="Year" required>
+                <option>--YEAR--</option>
+                <option>1ST</option>
+                <option>2ND</option>
+                <option>3RD</option>
+                <option>4th</option>
+            </select><br>
+            <input type="text" name="college Name" placeholder="Enter college name" required><br>
+            <button type="submit">Register</button>
+            <button type="reset">Reset</button>
+        </form>
+    </div>
+    <script>
+        function validation() {
+            var username = document.getElementById('username').value;
+            var email = document.getElementById('email').value;
+            var number = document.getElementById('number').value;
+
+            var usercheck = /^[A-Za-z]{3,30}$/;
+            var emailcheck = /^[A-Za-z_0-9.]{3,}@[A-Za-z]{3,}[.]{1}[A-Za-z.]{2,6}$/;
+            var numbercheck = /^[6789][0-9]{9}$/;
+
+            if (usercheck.test(username)) {
+                document.getElementById('errorname').innerHTML = " ";
+            }
+            else {
+                document.getElementById('errorname').innerHTML = "INAVLID";
+                return false;
+            }
+            if (emailcheck.test(email)) {
+                document.getElementById('erroremail').innerHTML = " ";
+            }
+            else {
+                document.getElementById('erroremail').innerHTML = "INVALID";
+                return false;
+            }
+            if (numbercheck.test(number)) {
+                document.getElementById('errornumber').innerHTML = " ";
+            }
+            else {
+                document.getElementById('errornumber').innerHTML = "INVALID";
+                return false;
+            }
+        }
+    </script>
+    <script>
+        const scriptURL =
+            'https://script.google.com/macros/s/AKfycbx4Te3bLW-OjE09ioT-59ugsCYXgUIFh47ZGCi9CAkdoDhE9YiXRpcrUChffyVYcj_GpA/exec'
+        const form = document.forms['google-sheet']
+
+        form.addEventListener('submit', e => {
+            e.preventDefault()
+            fetch(scriptURL, {
+                method: 'POST',
+                body: new FormData(form)
+            })
+                .then(response => alert(
+                    "Thanks for you valuable feedback!!!"))
+                .catch(error => console.error('Error!', error.message))
+        })
+
+    </script>
+
+</body>
+
+</html>

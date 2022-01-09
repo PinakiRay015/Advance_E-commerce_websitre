@@ -1,0 +1,22 @@
+
+h1{
+    margin: 20px;
+    padding: 60px;
+    color: rgb(13, 134, 114);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: lighter;
+}
+h2
+{
+    color: blueviolet;
+}
+h3
+{
+    color: chocolate;
+}
+a:hover
+{
+    font-size: 40px;
+    color: red;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}

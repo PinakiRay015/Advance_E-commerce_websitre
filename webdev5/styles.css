@@ -1,0 +1,14 @@
+.heading
+{
+    color: red;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.division
+{
+   color: blue;
+   border: 1px solid black;
+   padding-bottom: 15px;
+   padding-left: 1px;
+   padding-right: 5px;
+   margin-top: 30px;
+}

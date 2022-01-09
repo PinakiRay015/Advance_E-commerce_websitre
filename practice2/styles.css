@@ -1,0 +1,101 @@
+h1
+{
+    color: rgb(9, 129, 89);
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 40px;
+}
+p
+{
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+h3
+{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgb(240, 208, 64);
+}
+.content
+{
+    display: flex;
+}
+.content .card
+{
+    height: 600px;
+    width:  500px;
+    border: 1px solid black;
+}
+
+
+#card1
+{
+    background-image: url(https://images.unsplash.com/photo-1611162618758-2a29a995354b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8aW5zdGFncmFtfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60);
+    background-size: cover;
+}
+#card2
+{
+    background-image: url(https://images.unsplash.com/photo-1601141586963-f213d2575b7f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8ZmFjZWJvb2t8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60);
+    background-size: cover;
+}
+#card3
+{
+    background-image: url(https://images.unsplash.com/photo-1603145733316-7462e5ecd80d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8dHdpdHRlcnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60);
+    background-size: cover;
+}
+#card4
+{
+    background-image: url(https://images.unsplash.com/photo-1620396749162-d61bdb715793?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8c25hcGNoYXR8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60);
+    background-size: cover;
+}
+#link1
+{
+    color: white;
+    font-size: 20;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    background-color: rgb(221, 21, 81);
+    margin-top: 560;
+}
+#link2
+{
+    color: white;
+    font-size: 20;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    background-color: rgb(221, 21, 81);
+    margin-top: 560;
+}
+#link3
+{
+    color: white;
+    font-size: 20;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    background-color: rgb(221, 21, 81);
+    margin-top: 560;
+}
+#link4
+{
+    color: white;
+    font-size: 20;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    background-color: rgb(221, 21, 81);
+    margin-top: 560;
+}
+#link1:hover
+{
+    font-size: 40px;
+}#link2:hover
+{
+    font-size: 40px;
+}
+#link3:hover
+{
+    font-size: 40px;
+}
+#link4:hover
+{
+    font-size: 40px;
+}
+
